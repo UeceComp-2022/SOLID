@@ -12,11 +12,16 @@ style: |
   }
 ---
 
-# SOLID :v: <!--fit-->
 
-## Uma introdução ao conjunto de principios mais valiosos para 
+![bg left](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=O)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=L)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=D)
 
-## O desenvolvimento de software saudável <!-- fit -->
+
+## Uma introdução ao conjunto de principios fundamentais para 
+# O desenvolvimento de software saudável
 
 ---
 
@@ -88,54 +93,65 @@ Assim nasceu os principios SOLID.
 
 ---
 
-![bg vertical left:33%](https://fakeimg.pl/800x600/0288d1/fff/?text=SRP)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg ](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
+![bg left](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=O)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=L)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=D)
 
-# Single <!-- 1fit -->
+---
+
+![bg left](https://fakeimg.pl/800x600/fff/246/?text=S&font=lobster)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=O)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=L)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=D)
+
+# Single <!-- fit -->
 # Responsability <!-- fit -->
 # Principle <!-- 1fit -->
 
 ---
 
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=R)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
 
-![bg vertical left:33%](https://fakeimg.pl/800x600/0288d1/fff/?text=SRP)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=principio)
-![bg](https://fakeimg.pl/800x600/fff/000/?text=responsabilidade)
-![bg ](https://fakeimg.pl/800x600/fff/f00/?text=unica)
+
+# Principio <!-- 1fit -->
+## Responsabilidade <!-- fit -->
+# Unica <!-- 1fit -->
+
 
 ---
 
-![bg vertical left:33%](https://fakeimg.pl/800x600/0288d1/fff/?text=OCP)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
+![bg left](https://fakeimg.pl/800x600/246,120/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/fff/246/?text=O&font=lobster)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=L)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=D)
+
 
 # Open-Closed <!-- fit -->
 # Principle <!-- 1fit -->
 
 ---
 
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=O)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=C)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
 
-![bg vertical left:33%](https://fakeimg.pl/800x600/0288d1/fff/?text=OCP)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=principio)
-![bg](https://fakeimg.pl/800x600/fff/000/?text=aberto)
-![bg](https://fakeimg.pl/800x600/000/fff/?text=fechado)
-
+# Principio <!-- 1fit -->
+# Aberto-Fechado <!-- fit -->
 
 
 ---
+![bg left](https://fakeimg.pl/800x600/246,120/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=O)
+![bg](https://fakeimg.pl/800x600/fff/246/?text=L&font=lobster)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=D)
 
-![bg vertical left:33%](https://fakeimg.pl/800x600/0288d1/fff/?text=LSP)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
 
 # Liskov <!-- 1fit -->
 # Substitution <!-- fit -->
@@ -143,43 +159,47 @@ Assim nasceu os principios SOLID.
 
 ---
 
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=L)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
 
-![bg vertical left:33%](https://fakeimg.pl/800x600/0288d1/fff/?text=LSP)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=principio)
-![bg](https://fakeimg.pl/800x600/fff/000/?text=substituição)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=liskov)
-
+# Principio <!-- 1fit -->
+# Substituição <!-- fit -->
+# Liskov <!-- 1fit -->
 
 ---
 
-![bg vertical left:33%](https://fakeimg.pl/800x600/0288d1/fff/?text=ISP)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
+![bg left](https://fakeimg.pl/800x600/246,120/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=O)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=L)
+![bg](https://fakeimg.pl/800x600/fff/246/?text=I&font=lobster)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=D)
 
 
 # Interface <!-- 1fit -->
-## Segregation <!-- fit -->
+# Segregation <!-- fit -->
 # Principle <!-- 1fit -->
 
 ---
 
 
-![bg](https://fakeimg.pl/800x600/0288d1/fff/?text=ISP)
-![bg vertical left:33%](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg vertical left:33%](https://fakeimg.pl/800x600/fff/0288d1/?text=principio)
-![bg vertical left:33%](https://fakeimg.pl/800x600/fff/000/?text=segregação)
-![bg vertical left:33%](https://fakeimg.pl/800x600/fff/0288d1/?text=interface)
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+# Principio <!-- 1fit -->
+# Segregação <!-- fit -->
+# Interface <!-- 1fit -->
+
 
 ---
 
-![bg vertical left:33%](https://fakeimg.pl/800x600/0288d1/fff/?text=DIP)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
+![bg left](https://fakeimg.pl/800x600/246,120/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=O)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=L)
+![bg](https://fakeimg.pl/800x600/246,120/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/fff/246/?text=D&font=lobster)
+
 
 # Dependency <!-- 1fit -->
 ## Inversion <!-- fit -->
@@ -187,11 +207,13 @@ Assim nasceu os principios SOLID.
 
 ---
 
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=D)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
 
-![bg vertical left:33%](https://fakeimg.pl/800x600/0288d1/fff/?text=DIP)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=%20)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=principio)
-![bg](https://fakeimg.pl/800x600/fff/000/?text=inversão)
-![bg](https://fakeimg.pl/800x600/fff/0288d1/?text=dependencia)
+# Principio <!-- 1fit -->
+# Inversão <!-- fit -->
+# Depencencia <!-- 1fit -->
 
+---
 
