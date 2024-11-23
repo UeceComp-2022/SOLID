@@ -122,6 +122,74 @@ Assim nasceu os principios SOLID.
 ## Responsabilidade <!-- fit -->
 # Unica <!-- 1fit -->
 
+---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=R)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+
+<div class="cls">
+<div style="padding-top: 50%">
+
+``` java
+
+public class Robot {
+  void cook() { ... }
+  void text() { ... }
+  void state() { ... }
+  void image() { ... }
+  void video() { ... }
+  void youtube() { ... }
+}
+```
+
+</div>
+<div >
+
+![](./srp1.1.png)
+
+</div>
+</div>
+
+---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=R)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+
+<div class="cls">
+<div >
+
+![](./srp1.2.png)
+
+</div>
+<div>
+
+``` java
+
+public class RobotChef {
+  void cook() { ... }
+}
+
+public class RobotGarderner {
+  void clean() { ... }
+}
+
+public class RobotPainter {
+  void paint() { ... }
+}
+
+public class RobotDriver {
+  void drive() { ... }
+}
+
+```
+
+
+</div>
+</div>
 
 ---
 
