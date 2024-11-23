@@ -130,7 +130,7 @@ Assim nasceu os princípios SOLID.
 
 
 <div class="cls">
-<div style="padding-top: 50%">
+<div style="padding-top: 40%">
 
 ``` java
 
@@ -214,6 +214,99 @@ public class RobotDriver {
 
 
 ---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=O)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=C)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+
+<div class="cls">
+<div style="padding-top: 10%">
+
+``` java
+
+public class Robot {
+  void exec() { 
+    this.skill.cut();
+   }
+}
+
+// ⬇️
+
+public class Robot {
+  void exec() { 
+    this.skill.paint();
+   }
+}
+
+```
+
+</div>
+<div >
+
+![](./images/ocp1.1.png)
+
+</div>
+</div>
+
+
+---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=O)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=C)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+
+<div class="cls">
+<div style="padding-top: 10%">
+
+![](./images/ocp1.2.png)
+
+</div>
+<div >
+
+``` java
+
+public class Robot {
+  
+  Robot(Array<Skil>l skills){ this.skills = skills;}
+  
+  void exec() { 
+    for (Skill skill: this.skills){
+      skill.exec();
+    }
+   }
+}
+
+public class CookSkill implements Skill {
+  void exec() { ... }
+}
+
+public class PaintSkill implements Skill {
+  void exec() { ... }
+}
+// ... more skills
+
+// using
+
+Robot robot = new Robot([
+  new CookSkill(), 
+  new PaintSkill()
+]);
+
+
+```
+
+</div>
+</div>
+
+<!-- 
+Agora toda vez que precisar adicionar mais um comportamento ao robô, só precisamos criar uma nova classe Skill e implementa-la!
+
+Não precisamos alterar o codigo do Robot para modificar seu comportamento
+-->
+
+---
 ![bg left](https://fakeimg.pl/800x600/246,120/fff/?text=S)
 ![bg](https://fakeimg.pl/800x600/246,120/fff/?text=O)
 ![bg](https://fakeimg.pl/800x600/fff/246/?text=L&font=lobster)
@@ -234,6 +327,21 @@ public class RobotDriver {
 # Princípio <!-- 1fit -->
 # Substituição <!-- fit -->
 # Liskov <!-- 1fit -->
+
+---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=L)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+
+
+---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=L)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
 
 ---
 
