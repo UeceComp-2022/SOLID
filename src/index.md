@@ -65,8 +65,8 @@ Bons sistemas começam com pequenos pedaços de código limpo. Por outro lado, �
 
 <!-- 
 
-Assim como é possivel criar uma bagunça consideravel com tijolos bem feitos, 
-também é possivel bagunçar um sistema inteiro com pedaços de codigo bem-projetados.
+Assim como é possivel criar uma bagunça considerável com tijolos bem feitos, 
+também é possível bagunçar um sistema inteiro com pedaços de código bem-projetados.
 
 -->
 
@@ -85,11 +85,11 @@ também é possivel bagunçar um sistema inteiro com pedaços de codigo bem-proj
 ![bg vertical left:33%](https://media.licdn.com/dms/image/v2/D4E22AQEXAc7ytxDZjA/feedshare-shrink_800/feedshare-shrink_800/0/1709807964294?e=2147483647&v=beta&t=AlA8xwr73NqK7cpYfRmMEBYxCi_0rdawSMS9VTLjJBg)
 
     
-Robert C Martin (signatario do Manifesto Agil, autor do da serie de licros codigo limpo e  desenvolvedor desde a decada de 70), vem escrevendo sobre qualidade de software a muito tempo e em 2000 já havia estabelecido um conjunto de principios e praticas em seus trabalhos e publicações. 
+Robert C Martin (signatário do Manifesto Agil, autor do da série de livros codigo limpo e  desenvolvedor desde a década de 70), vem escrevendo sobre qualidade de software a muito tempo e em 2000 já havia estabelecido um conjunto de princípios e práticas em seus trabalhos e publicações. 
 
-Foi ai que em 2004, Michael Feathers (um importante e antigo desenvolvedor da comunidade C++) percebeu que se reoganiza-se os principios, as primeiras letras de cada principio poderiam formar a palavra SOLID.
+Foi ai que em 2004, Michael Feathers (um importante e antigo desenvolvedor da comunidade C++) percebeu que se reorganizasse os princípios, as primeiras letras de cada principio poderiam formar a palavra SOLID.
 
-Assim nasceu os principios SOLID.
+Assim nasceu os princípios SOLID.
 
 ---
 
@@ -209,7 +209,7 @@ public class RobotDriver {
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=C)
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
 
-# Principio <!-- 1fit -->
+# Princípio <!-- 1fit -->
 # Aberto-Fechado <!-- fit -->
 
 
@@ -231,7 +231,7 @@ public class RobotDriver {
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
 
-# Principio <!-- 1fit -->
+# Princípio <!-- 1fit -->
 # Substituição <!-- fit -->
 # Liskov <!-- 1fit -->
 
@@ -255,7 +255,7 @@ public class RobotDriver {
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
 
-# Principio <!-- 1fit -->
+# Princípio <!-- 1fit -->
 # Segregação <!-- fit -->
 # Interface <!-- 1fit -->
 
@@ -279,9 +279,9 @@ public class RobotDriver {
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=I)
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
 
-# Principio <!-- 1fit -->
+# Princípio <!-- 1fit -->
 # Inversão <!-- fit -->
-# Depencencia <!-- 1fit -->
+# Dependência <!-- 1fit -->
 
 ---
 
