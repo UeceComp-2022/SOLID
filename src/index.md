@@ -364,6 +364,7 @@ Agora toda vez que precisar adicionar mais um comportamento ao robô, só precis
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
 
+![](./images/lsp.0.png)
 
 
 ---
@@ -371,6 +372,63 @@ Agora toda vez que precisar adicionar mais um comportamento ao robô, só precis
 ![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=L)
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+
+<div class="cls">
+<div style="padding-top: 40%">
+
+``` java
+
+public class Sam {
+  Coffee cook() { ... }
+}
+
+public class Eden extends Sam {
+  Water cook() { ... }
+}
+
+```
+
+</div>
+<div >
+
+![](./images/lsp.1.png)
+
+</div>
+</div>
+
+---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=L)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+
+<div class="cls">
+<div>
+
+![](./images/lsp.2.png)
+
+</div>
+<div >
+
+
+``` java
+
+public class Sam {
+  Coffee cook() { ... }
+}
+
+public class Eden extends Sam {
+  Coffee cook() { 
+      // cappucino is a Coffee type 
+      return cappucino; 
+  }
+}
+
+```
+</div>
+</div>
 
 
 ---
