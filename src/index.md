@@ -16,7 +16,7 @@ style: |
 
 ## Uma introdução ao conjunto de principios mais valiosos para 
 
-## O desenvolvimento de software saudavel <!-- fit -->
+## O desenvolvimento de software saudável <!-- fit -->
 
 ---
 
