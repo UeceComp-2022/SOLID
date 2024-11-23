@@ -147,7 +147,7 @@ public class Robot {
 </div>
 <div >
 
-![](./srp1.1.png)
+![](./images/srp1.1.png)
 
 </div>
 </div>
@@ -162,7 +162,7 @@ public class Robot {
 <div class="cls">
 <div >
 
-![](./srp1.2.png)
+![](./images/srp1.2.png)
 
 </div>
 <div>
