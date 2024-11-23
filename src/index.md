@@ -101,11 +101,11 @@ Assim nasceu os princípios SOLID.
 
 ---
 
-![bg left](https://fakeimg.pl/800x600/fff/246/?text=S&font=lobster)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=O)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=L)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=I)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=D)
+![bg left](https://fakeimg.pl/800x600/246/fff/?text=S&font=lobster)
+![bg](https://fakeimg.pl/800x600/246,120/?text=O)
+![bg](https://fakeimg.pl/800x600/246,120/?text=L)
+![bg](https://fakeimg.pl/800x600/246,120/?text=I)
+![bg](https://fakeimg.pl/800x600/246,120/?text=D)
 
 # Single <!-- fit -->
 # Responsability <!-- fit -->
@@ -193,11 +193,11 @@ public class RobotDriver {
 
 ---
 
-![bg left](https://fakeimg.pl/800x600/246,120/fff/?text=S)
-![bg](https://fakeimg.pl/800x600/fff/246/?text=O&font=lobster)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=L)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=I)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=D)
+![bg left](https://fakeimg.pl/800x600/246,120/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=O&font=lobster)
+![bg](https://fakeimg.pl/800x600/246,120/?text=L)
+![bg](https://fakeimg.pl/800x600/246,120/?text=I)
+![bg](https://fakeimg.pl/800x600/246,120/?text=D)
 
 
 # Open-Closed <!-- fit -->
@@ -337,11 +337,11 @@ Agora toda vez que precisar adicionar mais um comportamento ao robô, só precis
 -->
 
 ---
-![bg left](https://fakeimg.pl/800x600/246,120/fff/?text=S)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=O)
-![bg](https://fakeimg.pl/800x600/fff/246/?text=L&font=lobster)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=I)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=D)
+![bg left](https://fakeimg.pl/800x600/246,120/?text=S)
+![bg](https://fakeimg.pl/800x600/246,120/?text=O)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=L&font=lobster)
+![bg](https://fakeimg.pl/800x600/246,120/?text=I)
+![bg](https://fakeimg.pl/800x600/246,120/?text=D)
 
 
 # Liskov <!-- 1fit -->
@@ -433,11 +433,11 @@ public class Eden extends Sam {
 
 ---
 
-![bg left](https://fakeimg.pl/800x600/246,120/fff/?text=S)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=O)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=L)
-![bg](https://fakeimg.pl/800x600/fff/246/?text=I&font=lobster)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=D)
+![bg left](https://fakeimg.pl/800x600/246,120/?text=S)
+![bg](https://fakeimg.pl/800x600/246,120/?text=O)
+![bg](https://fakeimg.pl/800x600/246,120/?text=L)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=I&font=lobster)
+![bg](https://fakeimg.pl/800x600/246,120/?text=D)
 
 
 # Interface <!-- 1fit -->
@@ -458,11 +458,11 @@ public class Eden extends Sam {
 
 ---
 
-![bg left](https://fakeimg.pl/800x600/246,120/fff/?text=S)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=O)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=L)
-![bg](https://fakeimg.pl/800x600/246,120/fff/?text=I)
-![bg](https://fakeimg.pl/800x600/fff/246/?text=D&font=lobster)
+![bg left](https://fakeimg.pl/800x600/246,120/?text=S)
+![bg](https://fakeimg.pl/800x600/246,120/?text=O)
+![bg](https://fakeimg.pl/800x600/246,120/?text=L)
+![bg](https://fakeimg.pl/800x600/246,120/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=D&font=lobster)
 
 
 # Dependency <!-- 1fit -->
