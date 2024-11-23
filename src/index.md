@@ -458,6 +458,144 @@ public class Eden extends Sam {
 
 ---
 
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+
+``` java
+
+public interface Robot {
+  void sping();
+  void rotateArms();
+  void wiggleAntenas();
+}
+
+public class Eden implements Robot {
+  Pair<Arm, Arm> arms;
+  Pair<Antena, Antena> antenas;
+
+
+  void sping() { ... }
+  void rotateArms() { ... }
+  void wiggleAntenas() { ... }
+}
+
+```
+
+---
+
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+<div class="cls">
+
+<div >
+
+![](./images/isp.1.png)
+
+</div>
+
+<div>
+
+``` java 
+
+public class Sam 
+  implements Robot {
+  
+  Pair<Arm, Arm> arms;
+
+  void sping() { ... }
+  void rotateArms() { ... }
+  
+  // NÃO TENHO ANTENAS
+  void wiggleAntenas() { 
+    throw new 
+      Exception("Não tenho antenas!");
+   }
+}
+
+```
+
+</div>
+</div>
+
+---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+``` java 
+
+public interface SpinRobot {
+  void spin();
+}
+
+public interface ArmsRobot {
+  Pair<Arm, Arm> arms;
+  void rotate();
+}
+
+public interface AntenasRobot {
+  Pair<Antena, Antena> antenas;
+  void wiggleAntenas(); 
+}
+
+```
+
+---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=S)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+<div class="cls">
+
+
+<div>
+
+``` java 
+public class Eden implements 
+  SpinRobot, 
+  ArmsRobot, 
+  AntenasRobot {
+  
+  Pair<Arm, Arm> arms;
+  Pair<Antena, Antena> antenas;
+
+  void sping() { ... }
+  void rotateArms() { ... }
+  void wiggleAntenas() { ... }
+
+}
+
+public class Sam implements 
+  SpinRobot, 
+  ArmsRobot { 
+  
+  Pair<Arm, Arm> arms;
+
+  void sping() { ... }
+  void rotateArms() { ... }
+}
+
+```
+
+</div>
+<div style="padding-top:20%;">
+
+![](./images/isp.2.png)
+
+</div>
+</div>
+
+
+
+---
+
 ![bg left](https://fakeimg.pl/800x600/246,120/?text=S)
 ![bg](https://fakeimg.pl/800x600/246,120/?text=O)
 ![bg](https://fakeimg.pl/800x600/246,120/?text=L)
