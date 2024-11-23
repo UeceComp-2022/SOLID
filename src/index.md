@@ -269,7 +269,9 @@ public class Robot {
 
 public class Robot {
   
-  Robot(Array<Skil>l skills){ this.skills = skills;}
+  Robot(Array<Skil>l skills){ 
+    this.skills = skills;
+  }
   
   void exec() { 
     for (Skill skill: this.skills){
@@ -278,17 +280,47 @@ public class Robot {
    }
 }
 
-public class CookSkill implements Skill {
+
+```
+
+</div>
+</div>
+
+<!-- 
+Não precisamos alterar o codigo do Robot para modificar seu comportamento
+-->
+
+---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=O)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=C)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+
+<div class="cls">
+<div style="padding-top: 10%">
+
+![](./images/ocp1.2.png)
+
+</div>
+<div >
+
+``` java
+
+public class CookSkill 
+  implements Skill {
+  
   void exec() { ... }
 }
 
-public class PaintSkill implements Skill {
+public class PaintSkill 
+  implements Skill {
+  
   void exec() { ... }
 }
 // ... more skills
 
 // using
-
 Robot robot = new Robot([
   new CookSkill(), 
   new PaintSkill()
@@ -302,8 +334,6 @@ Robot robot = new Robot([
 
 <!-- 
 Agora toda vez que precisar adicionar mais um comportamento ao robô, só precisamos criar uma nova classe Skill e implementa-la!
-
-Não precisamos alterar o codigo do Robot para modificar seu comportamento
 -->
 
 ---
