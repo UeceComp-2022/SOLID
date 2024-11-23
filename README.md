@@ -1,12 +1,12 @@
 # Seminário Eng de Software: 
 ## Tema 1 - Princípios SOLID e métricas de Código fonte
 
-- [ ] Descrever os cinco princípios SOLID.
-  - [ ] SRP: Single Responsibility Principle
-  - [ ] OCP: Open-Closed Principle 
-  - [ ] LSP: Liskov Substitution Principle
-  - [ ] ISP: Interface Segregation Principle
-  - [ ] DIP: Dependency Inversion Principle
+- [x] Descrever os cinco princípios SOLID.
+  - [x] SRP: Single Responsibility Principle
+  - [x] OCP: Open-Closed Principle 
+  - [x] LSP: Liskov Substitution Principle
+  - [x] ISP: Interface Segregation Principle
+  - [x] DIP: Dependency Inversion Principle
 
 - [ ] Mostrar exemplos dos princípios [* talvez *]
 
