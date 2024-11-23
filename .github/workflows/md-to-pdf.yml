@@ -6,8 +6,15 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: marp-gh-page
-        uses: timo-reymann/marp-gh-page-action@v2
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build with marp cli
+        shell: bash
+        run: |
+          npx @marp-team/marp-cli src/index.md -o build/index.html
+          npx @marp-team/marp-cli src/index.md -o build/slides.pdf
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          assets_path: ./src
+          folder: build
   
