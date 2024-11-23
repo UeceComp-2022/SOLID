@@ -20,26 +20,26 @@ style: |
 ![bg](https://fakeimg.pl/800x600/246/fff/?text=D)
 
 
-## Uma introdução ao conjunto de principios fundamentais para 
+## Uma introdução ao conjunto de princípios fundamentais para 
 # O desenvolvimento de software saudável
 
 ---
 
-## Principios solidos
+## Princípios solidos
 
 <!-- 
 
-Bons sistemas começam com pequenos pedaços de codigo limpo. Por outro lado, é possivel fazer uma bagunça consideravel com varios pequenos pedaços de codigo limpo. É ai que entram os principios SOLID.
+Bons sistemas começam com pequenos pedaços de código limpo. Por outro lado, é possível fazer uma bagunça considerável com vários pequenos pedaços de código limpo. É aí que entram os princípios SOLID.
 -->
 
 --- 
 
-## Principios solidos
+## Princípios sólidos
 # Organização
 
 <!-- 
 
-  Os principios SOLID nos dizem como organizar as funções e estruturas de dados em classes e como essas classes devem ser  interconectadas.
+  Os principios SOLID nos dizem como organizar as funções e estruturas de dados em classes e como essas classes devem ser interconectadas.
 
 -->
 
@@ -56,8 +56,8 @@ Bons sistemas começam com pequenos pedaços de codigo limpo. Por outro lado, é
   <div style="padding: 100px 100px 0 0;">
 
   - Tolerar mudanças
-  - Sejam facei de entender
-  - Sejam a base de codigo que possa ser usada em muitos sistemas de software
+  - Sejam faceis de entender
+  - Sejam a base de código que possa ser usada em muitos sistemas de software
 
   </div>
 </div>
