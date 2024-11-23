@@ -11,3 +11,9 @@
 - [ ] Mostrar exemplos dos princípios [* talvez *]
 
 - [ ] Discutir sobre métricas de código fonte, dando ênfase sobre a dificuldade em aplicá-las nos projetos de software atualmente. [@AbraaoAlves]
+
+
+## links
+
+- [Slides PDF ](https://raw.githubusercontent.com/UeceComp-2022/SOLID/refs/heads/gh-pages/slides.pdf)
+- [Slides Online](https://uececomp-2022.github.io/SOLID/)
