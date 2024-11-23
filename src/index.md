@@ -466,9 +466,9 @@ public class Eden extends Sam {
 ``` java
 
 public interface Robot {
-  void sping();
-  void rotateArms();
-  void wiggleAntenas();
+  void spin(); // girar 
+  void rotateArms(); // rodar braços 
+  void wiggleAntenas(); // mecher antenas
 }
 
 public class Eden implements Robot {
@@ -476,7 +476,7 @@ public class Eden implements Robot {
   Pair<Antena, Antena> antenas;
 
 
-  void sping() { ... }
+  void spin() { ... }
   void rotateArms() { ... }
   void wiggleAntenas() { ... }
 }
@@ -507,7 +507,7 @@ public class Sam
   
   Pair<Arm, Arm> arms;
 
-  void sping() { ... }
+  void spin() { ... }
   void rotateArms() { ... }
   
   // NÃO TENHO ANTENAS
@@ -554,7 +554,6 @@ public interface AntenasRobot {
 
 <div class="cls">
 
-
 <div>
 
 ``` java 
@@ -566,7 +565,7 @@ public class Eden implements
   Pair<Arm, Arm> arms;
   Pair<Antena, Antena> antenas;
 
-  void sping() { ... }
+  void spin() { ... }
   void rotateArms() { ... }
   void wiggleAntenas() { ... }
 
@@ -618,4 +617,113 @@ public class Sam implements
 # Dependência <!-- 1fit -->
 
 ---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=D)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+<div class="cls">
+
+<div >
+
+![](./images/dip.1.png)
+
+</div>
+
+<div style="padding-top:20%">
+
+``` java 
+
+public class Robot {
+  
+  CutterArm arm = new CutterArm();
+
+  // cortar 
+  void cut(Pizza pizza) { 
+    arm.cut(pizza);
+  }
+}
+
+```
+
+</div>
+</div>
+
+
+---
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=D)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+<div class="cls">
+
+<div >
+
+``` java 
+
+public class Robot {
+  
+  ArmTool arm;
+  
+  // recebe a ferramenta 
+  Robot(ArmTool arm) { 
+    this.arm = arm;  
+  }
+
+  // cortar 
+  void cut(Pizza pizza) { 
+    arm.cut(pizza);
+  }
+}
+
+```
+
+</div>
+
+<div>
+
+![](./images/dip.2.png)
+
+
+</div>
+</div>
+
+---
+
+
+![bg left:20%](https://fakeimg.pl/800x600/246/fff/?text=D)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=I)
+![bg](https://fakeimg.pl/800x600/246/fff/?text=P)
+
+<div class="cls">
+
+<div >
+
+``` java 
+
+Robot robot = new Robot(
+  new ArmKnifeTool()
+); 
+
+
+Robot robot = new Robot(
+  new ArmLaserTool()
+); 
+
+Robot robot = new Robot(
+  new ArmPexeraTool()
+); 
+
+
+```
+
+</div>
+
+<div>
+
+![](./images/dip.2.png)
+
+</div>
+</div>
 
