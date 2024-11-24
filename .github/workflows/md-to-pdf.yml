@@ -11,6 +11,7 @@ jobs:
       - name: Copy images
         shell: bash
         run: |
+          mkdir -p build/images
           cp -r src/images build/images
       - name: Build with marp cli
         shell: bash
